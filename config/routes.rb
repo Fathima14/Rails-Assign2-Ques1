@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   post "stringify", to: "pages#stringify" # defines stringify_path form tag
   root 'pages#home'
-  get 'age', to: 'pages#age'
+  put 'age', to: 'pages#person'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
